@@ -44,7 +44,15 @@ Janusz $surname <hr>
 Poznań
 E;
 echo $text;
+// nowdoc
+echo <<< 'E'
+<hr><hr>
+Imię i nazwisko:
+Janusz $surname <hr>
+Poznań
+E;
 
+echo"<br>Nazwa zmiennej surname: \$surname"; 
 
 
   ?>
